@@ -36,7 +36,7 @@ Package              0.0.1
 setuptools           41.2.0
 ``` 
 
-# Citation
+# Comments
 Given that this is completely public, enforcing citation is near impossible.
 However, open source software is making the world a better place for all people, so 
 I post this here and leave it up to your moral compass as what in this work 
