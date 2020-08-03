@@ -29,7 +29,7 @@ def getreqs(fname):
     return [data[i].replace('\n', '') for i in range(len(data))]
 
 
-setup(name='PythonPackageExample',
+setup(name='Package',
       version='0.0.1',
       packages=['Package'],
       install_requires=getreqs('requirements.txt'),
