@@ -32,7 +32,7 @@ Package              Version
 -------------------- -------
 CoolProp             6.3.0  
 pip                  19.2.3 
-PythonPackageExample 0.0.1  
+Package              0.0.1  
 setuptools           41.2.0
 ``` 
 
