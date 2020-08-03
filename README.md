@@ -20,6 +20,22 @@ zipped up, you can install by the following.
 ```
 pip install <path/to/package.zip>
 ``` 
+## Post Installation
+If you do `pip install` this package, then you can list off all the packages you
+now have in your `pip`.
+```
+pip list
+```
+provides me with the following after installing:
+```
+Package              Version
+-------------------- -------
+CoolProp             6.3.0  
+pip                  19.2.3 
+PythonPackageExample 0.0.1  
+setuptools           41.2.0
+``` 
+
 # Citation
 Given that this is completely public, enforcing citation is near impossible.
 However, open source software is making the world a better place for all people, so 
