@@ -1,10 +1,9 @@
 # PythonPackageExample
-A simple example of a python package
-A minimal package including various aspects:
-- Installing to pip
-- Including Non-Python files
-- Building with Cython
-- Requirements for the project
+A minimal package including various aspects: 
+- Installing to pip ([setup.py](setup.py))
+- Including Non-Python files ([MANIFEST.in](MANIFEST.in))
+- Building with Cython ([pyproject.toml](pyproject.toml))
+- Requirements for the project ([requirements.txt](requirements.txt))
 
 # Usage
 ## Build in Place
