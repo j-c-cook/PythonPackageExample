@@ -39,13 +39,3 @@ pip                  19.2.3
 Package              0.0.1  
 setuptools           41.2.0
 ``` 
-
-# Comments
-Given that this is completely public, enforcing citation is near impossible.
-However, open source software is making the world a better place for all people, so 
-I post this here and leave it up to your moral compass as what in this work 
-you will decide to cite. Additionally, most of what is here is neither new nor 
-ground breaking. This example repository does provide a more in depth 
-example of the features available for Python packaging in a more simple 
-presentation than I have ever seen. Dissecting numpy may provide some 
-insight, but it is also a fairly complex example. 
