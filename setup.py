@@ -15,24 +15,12 @@ extensions = [
     )
 ]
 
-
-def getreqs(fname):
-    """
-    Get the requirements list from the text file
-    JCC 03.10.2020
-    :param fname: the name of the requirements text file
-    :return: a list of requirements
-    """
-    file = open(fname)
-    data = file.readlines()
-    file.close()
-    return [data[i].replace('\n', '') for i in range(len(data))]
-
-
 setup(name='Package',
       version='0.0.1',
       packages=['Package'],
-      install_requires=getreqs('requirements.txt'),
+      install_requires=['coolprop',
+                        'numpy',
+                        'Cython'],
       include_package_data=True,
       ext_modules=extensions,
       cmdclass={'build_ext': build_ext},

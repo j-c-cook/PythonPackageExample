@@ -3,7 +3,7 @@ A minimal package including various aspects:
 - Installing to pip ([setup.py](setup.py))
 - Including Non-Python files ([MANIFEST.in](MANIFEST.in))
 - Building with Cython ([pyproject.toml](pyproject.toml))
-- Requirements for the project ([requirements.txt](requirements.txt))
+- Requirements for the project ([requirements.txt](requires.txt))
 
 # Usage
 ## Build in Place
